@@ -1,0 +1,23 @@
+<mat-toolbar color="primary">
+
+    Little Linguist
+
+    <div class="toolbar-icons"></div>
+    <mat-icon class="toolbar-icon">account_circle</mat-icon>
+
+
+
+    <button class="menu_button" mat-button [matMenuTriggerFor]="menu">
+        <mat-icon >menu</mat-icon>
+    </button>
+
+    <mat-menu #menu="matMenu">
+        <button mat-menu-item>Playing Mode</button>
+        <button mat-menu-item>Managemant Mode</button>
+    </mat-menu>
+
+</mat-toolbar>
+
+
+<mat-icon class="help">help</mat-icon>
+

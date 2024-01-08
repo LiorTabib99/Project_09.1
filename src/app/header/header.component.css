@@ -1,0 +1,21 @@
+.toolbar-icons {
+    flex: 10px;
+}
+
+.toolbar-icon {
+    padding-right: 8px;
+}
+
+.menu_button{
+    
+    position: relative;
+    /* padding-right:px; */
+}
+
+
+.help{
+    position: relative;
+    top: 400px;
+    left: 77%; 
+    padding: 10px;
+}
